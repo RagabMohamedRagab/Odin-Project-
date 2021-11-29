@@ -1,5 +1,5 @@
 # Odin-Project-Html
- - Heading <h1>
+ - Heading
  - Paragarph <p><p>
  - Image <img src="" alt=""/>
  - Link <a href="" target="">Link</a>
