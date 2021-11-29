@@ -1,6 +1,6 @@
 # Odin-Project-Html
  - Heading
- - Paragarph <p><p>
+ - Paragarph<p><p>
  - Image <img src="" alt=""/>
  - Link <a href="" target="">Link</a>
  - unorderlist <ul></ul>
