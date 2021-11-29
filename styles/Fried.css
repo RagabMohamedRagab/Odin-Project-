@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+.head {
+    background-color: #6C63FF;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.head .logo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin: 5px 0px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.fried_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3%;
+}
+.fried_content div:first-of-type {
+  margin-bottom: 3%;
+}
+.fried_content div:first-of-type img{
+    border-radius: 3px;
+}
+.fried_content div:nth-of-type(2),.fried_content div:nth-of-type(3),.fried_content div:nth-of-type(4){
+    text-align: center;
+    border: 2px solid #6C63FF;
+    line-height:1.8rem;
+    padding: 4px;
+    margin-bottom: 4%;
+}
+.fried_content div:nth-of-type(2) h2,.fried_content div:nth-of-type(3) h2,.fried_content div:nth-of-type(4) h2{
+    text-align: center;
+    margin-bottom: 2%;
+    background-color:#6C63FF;
+    color:#fff;
+    width: 30%;
+    margin: 10px auto;
+}
+.fried_content div:nth-of-type(2) p,.fried_content div:nth-of-type(4) p
+{
+ font-weight: bold;
+ width:50%;
+ margin: 5px auto;
+}
+.fried_content div:nth-of-type(3) h2{
+    padding: 2%;
+  width: 40%;
+}
+.fried_content div:nth-of-type(3) ul{
+    list-style-type:none;
+    text-align: start;
+    padding-left: 1.1%;
+}
+.fried_content div:nth-of-type(3) ul li{
+    font-weight: bold;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.foot p{
+    flex-basis: 15%;
+    text-align: center;
+    background-color: #6C63FF;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.foot p a{
+    color:#fff;
+    text-decoration: none;
+}
